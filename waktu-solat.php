@@ -1,4 +1,5 @@
 <?php
+    header_remove ('X-Frame-Options');
     libxml_disable_entity_loader(false);
     $curl = curl_init(); 
     curl_setopt ($curl, CURLOPT_URL, "http://www2.e-solat.gov.my/xml/today/index.php?" . $_SERVER['QUERY_STRING']); 
