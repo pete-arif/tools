@@ -9,4 +9,4 @@ function getter($url) {
     return $data;
 }
 
-echo getter('http://yourdomain.com/waktu-solat.php');
+echo getter('https://raw.githubusercontent.com/pete-harris-sf/tools/master/waktu-solat.php');
